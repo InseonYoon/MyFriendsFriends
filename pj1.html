@@ -2,31 +2,35 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>HODU</title>
+    <title>내 친구의 친구들</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
     <header>
-        <img src="./icons/logo.svg" alt="로고">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Support</a>
-        <button>Download</button>
+        <img src="./icons/logo.svg" class="headerLogo" alt="로고">
+        <nav class="headerMenu">
+            <a href="#">Home</a>
+            <a href="#gallary">Gallary</a>
+            <a href="#map">Map</a>
+            <button class="download">Download</button>
+        </nav>
     </header>
     <main>
-        <h1>보통 이쯤에 타이틀을 놓더라</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, dolorem, omnis. Ab aut autem cum eum itaque iure libero nesciunt nisi nostrum placeat quasi, quibusdam quis recusandae tempore, vel, voluptas?</p>
-        <button>Download</button>
+        <article>
+            <h1>내 친구의 친구들을 소개합니다!</h1>
+            <p>프젝에 쓰려고 진짜 정말로 제 친구들의 반려동물 사진을 뜯어내어왔습니다. 여섯장을 채울 수 있을지 모르겠네요. 지금까지 두장을 모았습니다. 고양이 세마리 키우는 친구만 포섭하면 한방에 다섯장까지 채울 수 있을듯 합니다.</p>
+            <button class="download">Download</button>
+        </article>
         <img src="./images/img_head.png" alt="박스냥이">
     </main>
     <article>
         <img src="./images/img_0.png" alt="누운냥이">
-        <h2>여기에 중간타이틀 들어가고</h2>
+        <h2>지금 깨달은건데 로렘입숨 쓸때마다 다르게 나오네???</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur culpa, cum doloribus ducimus ex expedita iusto maxime minima nostrum numquam odio officiis sit sunt tempora totam velit veritatis.</p>
     </article>
-    <article>
-        <h1>무한스크롤 구역 타이틀</h1>
+    <article id="gallary">
+        <h1>이미지 구역 타이틀</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at incidunt magnam, nam odit officiis omnis quas quasi quisquam rem sit suscipit ut? Atque earum, eius eos harum quaerat rem?</p>
         <img src="./images/img_1.png" alt="">
         <img src="./images/img_2.png" alt="">
@@ -35,10 +39,10 @@
         <img src="./images/img_5.png" alt="">
         <img src="./images/img_6.png" alt="">
         <h3>Continue exploring HODU</h3>
-        <button>Show more</button>
+        <button class="showmore">Show more</button>
     </article>
     <hr>
-    <article>
+    <article id="map">
         <h2>Where you'll be</h2>
         <p>상세주소 회색텍스트</p>
         <div id="map" style="width:1278px;height:520px;">지도자리</div>
@@ -46,7 +50,7 @@
     <article>
         <h2>Subscribe to our Blog post</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam commodi dignissimos eligendi enim exercitationem in molestiae nam obcaecati, odio officiis quaerat quas quia rem repellendus reprehenderit rerum vel veritatis?</p>
-        <form action="">
+        <form>
             <img src="./icons/icon_mail.svg" alt="">
             <label for="emailInput"></label>
             <input type="email" id="emailInput" placeholder="Enter your e-mail address" required>
@@ -54,13 +58,15 @@
         </form>
     </article>
     <button onclick="" id="scroll-top-btn" title="맨위로">▲</button>
+    <img id="footerImage" src="./images/img_foot.png" alt="">
     <footer>
-        <img src="./images/img_foot.png" alt="">
-        <img src="./icons/logo.svg" alt="">
-        <img src="./icons/icon_blog.svg" alt="">
-        <img src="./icons/icon_insta.svg" alt="">
-        <img src="./icons/icon_facebook.svg" alt="">
-        <img src="./icons/icon_youtube.svg" alt="">
+        <img src="./icons/logo.svg" class="footerLogo" alt="">
+        <div>
+            <img src="./icons/icon_blog.svg" class="icon" alt="">
+            <img src="./icons/icon_insta.svg" class="icon" alt="">
+            <img src="./icons/icon_facebook.svg" class="icon" alt="">
+            <img src="./icons/icon_youtube.svg" class="icon" alt="">
+        </div>
     </footer>
 </body>
 </html>

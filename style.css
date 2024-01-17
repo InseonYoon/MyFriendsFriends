@@ -1,7 +1,125 @@
+/*general style start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    width: 1280px;
+    margin: 0 auto;
+
+    font-family: Pretendard-Regular;
+    font-size: 16px;
+    line-height: 20px;
+}
+img{
+    vertical-align: bottom;
+}
+h1{
+    font-size: 48px;
+    line-height: 60px;
+}
+h2{
+    font-size: 36px;
+    line-height: 45px;
+}
+h3{
+    font-size: 24px;
+    line-height: 30px;
+}
+/*general style end*/
+
+/*header style start*/
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 102px;
+    background-color: #F2E9D8;
+}
+.headerLogo{
+    width: 130px;
+    height: 40px;
+    margin-top: 31px;
+}
+.headerMenu{
+    margin-top: 26px;
+}
+.headerMenu>a{
+    margin-right: 30px;
+    color: #000000;
+    text-decoration-line: none;
+}
+.headerMenu>button{
+    margin-left: 19px;
+}
+.download{
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/*header style end*/
+
+/*main style start*/
+main{
+    display: inline-block;
+    column-count: 2;
+    column-gap: 170px;
+    background-color: #F2E9D8;
+}
+main>article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main>article>{
+    display: flex;
+}
+main h1{
+    width: 695px;
+    margin-bottom: 40px;
+}
+main p{
+    width: 420px;
+    margin-bottom: 40px;
+}
+/*main style end*/
+
+/*footer style start*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+}
+.footerLogo{
+    width: 226px;
+    height: 70px;
+    margin-top: 45px;
+}
+.icon{
+    width: 42px;
+    height: 42px;
+    margin-top: 58px;
+    margin-left: 20px;
+}
+/*footer style end*/
+
 #scroll-top-btn {
     color: #C4C4C4;
 }
 
 #scroll-top-btn:hover {
     color: #767676;
+}
+
+#footerImage{
+
 }
