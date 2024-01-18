@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>내 친구의 친구들</title>
+    <link rel="stylesheet" href="style.css">
+<!--    <script src="script.js"></script>-->
+</head>
+<body>
+    <header>
+        <div class="postarea">
+            <img src="./icons/logo.svg" class="headerLogo" alt="로고">
+            <nav class="headerMenu">
+                <a href="#">Home</a>
+                <a href="#gallary">Gallary</a>
+                <a href="#map">Map</a>
+                <button class="download">Download</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="postarea">
+            <article class="columnPost">
+                <h1>내 친구의 친구들을 소개합니다!</h1>
+                <p>프젝에 쓰려고 진짜 정말로 제 친구들의 반려동물 사진을 뜯어내어왔습니다. 여섯장을 채울 수 있을지 모르겠네요. 지금까지 두장을 모았습니다. 고양이 세마리 키우는 친구만 포섭하면 한방에 다섯장까지 채울 수 있을듯 합니다.</p>
+                <button class="download">Download</button>
+            </article>
+            <img src="./images/img_head.png" alt="박스냥이">
+        </div>
+    </main>
+    <div id="middle" class="postarea">
+        <img src="./images/img_0.png" alt="누운냥이">
+        <article class="columnPost">
+            <h2>지금 깨달은건데 로렘입숨 쓸때마다 다르게 나오네???</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur culpa, cum doloribus ducimus ex expedita iusto maxime minima nostrum numquam odio officiis sit sunt tempora totam velit veritatis.</p>
+        </article>
+    </div>
+    <div id="galleryInfo" class="postarea">
+        <h1>이미지 구역 타이틀</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at incidunt magnam, nam odit officiis omnis quas quasi quisquam rem sit suscipit ut? Atque earum, eius eos harum quaerat rem?</p>
+    </div>
+    <div id="gallery" class="postarea">
+        <img src="./images/img_1.png" alt="">
+        <img src="./images/img_2.png" alt="">
+        <img src="./images/img_3.png" alt="">
+        <img src="./images/img_4.png" alt="">
+        <img src="./images/img_5.png" alt="">
+        <img src="./images/img_6.png" alt="">
+
+    </div>
+    <section id="galleryLoad" class="postarea">
+        <h3>Continue exploring HODU</h3>
+        <button class="showmore">Show more</button>
+    </section>
+    <hr>
+    <article id="address" class="postarea">
+        <h2>Et in arcadia ego</h2>
+        <p>서울 서초구 강남대로 27</p>
+        <div id="map"></div>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7bb9040501e09cd772f2c2c6b18cdcfe"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </article>
+    <article id="subscribe">
+        <article>
+            <h2>Subscribe to our Blog post</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </article>
+        <form>
+            <div>
+                <img src="./icons/icon_mail.svg" alt="">
+                <label for="emailInput"></label>
+                <input type="email" id="emailInput" placeholder="Enter your e-mail address" required>
+            </div>
+            <input type="button" class="formButton" value="Subscribe">
+        </form>
+    </article>
+    <img id="footerImage" src="./images/img_foot.png" alt="">
+    <footer>
+        <img src="./icons/logo.svg" class="footerLogo" alt="">
+        <div>
+            <img src="./icons/icon_blog.svg" class="icon" alt="">
+            <img src="./icons/icon_insta.svg" class="icon" alt="">
+            <img src="./icons/icon_facebook.svg" class="icon" alt="">
+            <img src="./icons/icon_youtube.svg" class="icon" alt="">
+        </div>
+    </footer>
+    <div class="scroll-top-btn">
+        <a href="#"><img src="./icons/scroll-top-btn-hover.svg" alt="맨위로"></a>
+        <img class="topButton" src="./icons/scroll-top-btn.svg" alt="">
+    </div>
+</body>
+</html>

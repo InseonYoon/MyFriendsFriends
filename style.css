@@ -10,7 +10,6 @@
     font-style: normal;
 }
 body{
-    width: 1280px;
     margin: 0 auto;
 
     font-family: Pretendard-Regular;
@@ -32,14 +31,19 @@ h3{
     font-size: 24px;
     line-height: 30px;
 }
+.postarea{
+    width: 1280px;
+}
 /*general style end*/
 
 /*header style start*/
 header{
+    background-color: #F2E9D8;
+}
+header>.postarea{
     display: flex;
     justify-content: space-between;
     height: 102px;
-    background-color: #F2E9D8;
 }
 .headerLogo{
     width: 130px;
@@ -70,18 +74,17 @@ header{
 
 /*main style start*/
 main{
-    display: inline-block;
-    column-count: 2;
-    column-gap: 170px;
     background-color: #F2E9D8;
 }
-main>article {
+main>.postarea{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+main .columnPost{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-main>article>{
-    display: flex;
 }
 main h1{
     width: 695px;
@@ -93,11 +96,172 @@ main p{
 }
 /*main style end*/
 
-/*footer style start*/
-footer{
+/*middle style start*/
+#middle{
+    margin-top: 80px;
+    width: 1280px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
+}
+#middle .columnPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#middle img{
+    width: 660px;
+    height: 390px;
+    border:none;
+    border-radius: 30px;
+}
+#middle h2{
+    width: 510px;
+    margin-bottom: 30px;
+}
+#middle p{
+    width: 510px;
+}
+/*middle style end*/
+
+/*galleryInfo style start*/
+#galleryInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#galleryInfo>h1{
+    width: 875px;
+    margin-bottom: 40px;
+    color: #D97652;
+}
+#galleryInfo>p{
+    width: 710px;
+    margin-bottom: 88px;
+}
+/*galleryInfo style end*/
+
+/*gallery style start*/
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+#gallery>img{
+    width: 378px;
+    height: 378px;
+    margin-bottom: 72px;
+}
+/*gallery style end*/
+
+/*galleryLoad style start*/
+#galleryLoad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.showmore{
+    width: 143px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 28px;
+    margin-bottom: 80px;
+}
+/*galleryLoad style end*/
+
+/*address style start*/
+#address{
+    margin-top: 68px;
+}
+#address>p{
+    margin-top: 20px;
+    margin-bottom: 48px;
+    color: #606367;
+}
+#map{
+    width: 1278px;
+    height: 520px;
+    border-radius: 12px;
+}
+/*address style end*/
+
+/*subscribe style start*/
+#subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: #263140;
+    color: #FFFFFF;
+    padding-left: 58px;
+    padding-right: 58px;
+    margin-top: 80px;
+}
+#subscribe h2{
+    width: 448px;
+    margin-bottom: 18px;
+}
+#subscribe p{
+    width: 471px;
+}
+#subscribe form{
+    display: flex;
+    justify-content: space-between;
+    width: 530px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #fff;
+}
+#subscribe img{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 28px;
+    margin-right: 16px;
+}
+#emailInput{
+    width: 300px;
+    height: 60px;
+    border:none;
+    font-size: 16px;
+    line-height: 20px;
+}
+.formButton{
+    width: 135px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 6px;
+}
+/*subscribe style end*/
+
+/*footer style start*/
+#footerImage{
+    position: relative;
+    top: -100px;
+    z-index: -10;
+}
+footer{
+    width: 1280px;
     height: 160px;
+    position: relative;
+    top: -100px;
+    display: flex;
+    justify-content: space-between;
 }
 .footerLogo{
     width: 226px;
@@ -112,14 +276,21 @@ footer{
 }
 /*footer style end*/
 
-#scroll-top-btn {
-    color: #C4C4C4;
+/*scroll-top-btn style start*/
+.scroll-top-btn{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
 }
-
-#scroll-top-btn:hover {
-    color: #767676;
+.topButton{
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
-
-#footerImage{
-
+.scroll-top-btn:hover .topButton{
+    display: none;
 }
+/*scroll-top-btn style end*/
