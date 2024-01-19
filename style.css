@@ -9,6 +9,7 @@ body{
     font-family: Pretendard-Regular;
     font-size: 16px;
     line-height: 20px;
+    margin: 0;
 }
 body *{
     margin: 0 auto;
@@ -123,6 +124,7 @@ main img{
     border:none;
     border-radius: 30px;
     margin-left: 0;
+    box-shadow: 10px 10px 30px rgb(0, 0, 0, 0.25);
 }
 #middle h2{
     width: 510px;
@@ -164,9 +166,12 @@ main img{
 #gallery>img{
     width: 378px;
     height: 378px;
+    border: none;
+    border-radius: 30px;
     margin-bottom: 72px;
     margin-left: 0;
     margin-right: 0;
+    box-shadow: 10px 10px 30px rgb(0, 0, 0, 0.25);
 }
 /*gallery style end*/
 
@@ -256,6 +261,7 @@ hr{
     border:none;
     font-size: 16px;
     line-height: 20px;
+    margin-bottom: 4px;
 }
 .formButton{
     width: 135px;
