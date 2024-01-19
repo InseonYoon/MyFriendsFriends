@@ -289,10 +289,10 @@ footer{
     width: 226px;
     height: 70px;
     margin-top: 45px;
-    /*margin-left: -50px;*/
+    margin-left: -50px;
 }
 .icons{
-    margin-right: 0;
+    margin-right: -50px;
 }
 .icon{
     margin-top: 58px;
