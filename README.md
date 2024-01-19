@@ -8,6 +8,7 @@
 ---
   
 ### 작업내역
++ **2024.01.19**: 레이아웃 오류 해결
 + **2024.01.18**: CSS 스타일 작성(main, gallery, footer), 카카오맵 API 호출
 + **2024.01.17**: CSS 스타일 작성(header, footer)
 + **2024.01.16**: HTML, CSS, JavaScript 문서 및 HTML 요소 생성
