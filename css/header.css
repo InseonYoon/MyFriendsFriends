@@ -1,5 +1,5 @@
 header{
-    background-color: #F2E9D8;
+    background-color: #C0F7E8;
 }
 header>.postarea{
     display: flex;
@@ -7,7 +7,7 @@ header>.postarea{
     height: 102px;
 }
 .headerLogo{
-    width: 130px;
+    /*width: 130px;*/
     height: 40px;
     margin-top: 31px;
     margin-left: 0;
@@ -29,7 +29,7 @@ header>.postarea{
     height: 50px;
     border: none;
     border-radius: 40px;
-    background-color: #D97652;
+    background-color: #01DFA5;
     font-size: 16px;
     color: #FFFFFF;
 }
