@@ -32,6 +32,11 @@ h3{
 .postarea{
     width: 1280px;
 }
+button:active {
+    box-shadow:
+            inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+            inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
 /*general style end*/
 
 /*header style start*/
@@ -241,7 +246,7 @@ hr{
 #subscribe p{
     width: 471px;
 }
-#subscribe form{
+#subscribe .emailForm{
     display: flex;
     justify-content: space-between;
     width: 530px;
@@ -263,7 +268,7 @@ hr{
     line-height: 20px;
     margin-bottom: 4px;
 }
-.formButton{
+#formButton{
     width: 135px;
     height: 50px;
     border: none;
@@ -325,3 +330,37 @@ footer{
     display: none;
 }
 /*scroll-top-btn style end*/
+
+/*modal style start*/
+#modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    visibility: hidden;
+}
+.modalElements{
+    background-image: url("./images/modal.png");
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    border-radius: 30px;
+}
+.modalElements img{
+    margin-top: 60px;
+}
+#okButton{
+    width: 183px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+/*modal style end*/
