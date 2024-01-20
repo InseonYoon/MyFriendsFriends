@@ -303,12 +303,13 @@ footer{
     margin-left: -50px;
 }
 .icons{
+    margin-top: 58px;
     margin-right: -50px;
 }
-.icon{
-    margin-top: 58px;
+.icons>a{
     margin-left: 20px;
     margin-right: 0;
+    text-decoration-line: none;
 }
 /*footer style end*/
 
