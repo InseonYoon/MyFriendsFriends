@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    font-family: Pretendard-Regular;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+body *{
+    margin: 0 auto;
+}
+img{
+    vertical-align: bottom;
+}
+h1{
+    font-size: 48px;
+    line-height: 60px;
+}
+h2{
+    font-size: 36px;
+    line-height: 45px;
+}
+h3{
+    font-size: 24px;
+    line-height: 30px;
+}
+.postarea{
+    width: 1280px;
+}
+button:active {
+    box-shadow:
+            inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+            inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/*scroll-top-btn style start*/
+.scroll-top-btn{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+}
+.topButton{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.scroll-top-btn:hover .topButton{
+    display: none;
+}
+/*scroll-top-btn style end*/
+
+/*modal style start*/
+#modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    visibility: hidden;
+}
+.modalElements{
+    background-image: url("../images/modal.png");
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    border-radius: 30px;
+}
+.modalElements img{
+    margin-top: 60px;
+}
+#okButton{
+    width: 183px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+/*modal style end*/

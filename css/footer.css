@@ -1,0 +1,23 @@
+footer{
+    width: 1280px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -100px;
+}
+.footerLogo{
+    width: 226px;
+    height: 70px;
+    margin-top: 45px;
+    margin-left: -50px;
+}
+.icons{
+    margin-top: 58px;
+    margin-right: -50px;
+}
+.icons>a{
+    margin-left: 20px;
+    margin-right: 0;
+    text-decoration-line: none;
+}

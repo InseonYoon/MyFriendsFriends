@@ -1,0 +1,30 @@
+main{
+    background-color: #F2E9D8;
+}
+main>.postarea{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+main .columnPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+}
+main h1{
+    width: 695px;
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+main p{
+    width: 420px;
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+main .download{
+    margin-left: 0;
+}
+main img{
+    margin-right: 0;
+}

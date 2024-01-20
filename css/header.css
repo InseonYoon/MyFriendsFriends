@@ -1,0 +1,35 @@
+header{
+    background-color: #F2E9D8;
+}
+header>.postarea{
+    display: flex;
+    justify-content: space-between;
+    height: 102px;
+}
+.headerLogo{
+    width: 130px;
+    height: 40px;
+    margin-top: 31px;
+    margin-left: 0;
+}
+.headerMenu{
+    margin-top: 26px;
+    margin-right: 0;
+}
+.headerMenu>a{
+    margin-right: 30px;
+    color: #000000;
+    text-decoration-line: none;
+}
+.headerMenu>button{
+    margin-left: 19px;
+}
+.download{
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    font-size: 16px;
+    color: #FFFFFF;
+}
