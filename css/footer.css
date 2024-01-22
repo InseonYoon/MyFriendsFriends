@@ -7,10 +7,12 @@ footer{
     top: -100px;
 }
 .footerLogo{
-    width: 226px;
-    height: 70px;
     margin-top: 45px;
     margin-left: -50px;
+}
+.footerLogo>img{
+    width: 226px;
+    height: 70px;
 }
 .icons{
     margin-top: 58px;

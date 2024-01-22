@@ -1,6 +1,8 @@
 # 내 친구의 친구들 my-friends-friends
+https://inseonyoon.github.io/my-friends-friends/  
+  
 오르미 백엔드 4기 FE 프로젝트: 랜딩 페이지 구현  
-
+  
 + 페이지의 목적: 친구들의 반려동물🐕🐈🦎 사진 모아보기
 + 주요 기능: Infinite scroll, Kakao 지도 API 호출, Modal window
 + 사용한 기술: HTML, CSS, JavaScript
